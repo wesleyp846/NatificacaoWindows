@@ -5,6 +5,6 @@ notificacao = Notification(app_id="codigo python",
                            msg="acabou a zoeira vai estudar",
                            duration="long",
                            )
-notificacao.set_audio(audio.Default, loop=False)
+
 
 notificacao.show()
